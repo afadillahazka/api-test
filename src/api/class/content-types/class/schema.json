@@ -25,6 +25,12 @@
     },
     "rate": {
       "type": "decimal"
+    },
+    "review": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::review.review",
+      "inversedBy": "class"
     }
   }
 }
