@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * fourthncafa service
+ * class service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::fourthncafa.fourthncafa');
+module.exports = createCoreService('api::class.class');
