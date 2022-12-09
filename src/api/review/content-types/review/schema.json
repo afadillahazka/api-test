@@ -12,17 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "reviewer": {
       "type": "string"
     },
-    "review": {
+    "reviews": {
       "type": "string"
     },
     "class": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::class.class",
-      "inversedBy": "review"
+      "inversedBy": "reviews"
     }
   }
 }
